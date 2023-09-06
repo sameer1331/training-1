@@ -1,6 +1,8 @@
 //function to group objects by year using map :
+
 function groupByYear(objects) {
-    const groupedObjects = new Map();
+
+  const groupedObjects = new Map();
   
     for (const object of objects) {
       const date = object.date;
