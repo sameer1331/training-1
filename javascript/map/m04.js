@@ -1,22 +1,46 @@
-//function to group objects by category using map :
-function groupByCategory(objects) {
-    const groupedObjects = new Map();
-  
-    for (const object of objects) {
-      const category = object.category;
-  
-      if (!groupedObjects.has(category)) {
-        groupedObjects.set(category, []);
-      }
-  
-      groupedObjects.get(category).push(object);
-    }
-  
-    return groupedObjects;
-  }
-  const objects = [{ category: "sports" }, { category: "music" }, { category: "movies" }, { category: "sports" }];
+//function to group objects by category :
 
-  const groupedObjects = groupByCategory(objects);
+var n=[
+  {
+      name:'tiger',
+      type:'animal'
+  },
+  {
+      name:'eagle',
+      type:'birds'
+  },
+  {
+      name:'dog',
+      type:'animal'
+  },
+  {
+      name:'snake',
+      type:'reptile'
+  },
   
-  console.log(groupedObjects);
-    
+  {
+      name:'pigeon',
+      type:'birds'
+  }  
+]
+
+a=[]
+b=[]
+c=[]
+
+n.forEach(e => {
+  if(e.type == 'animal')
+      a.push(e.name)
+  else if(e.type == 'birds')
+      b.push(e.name)
+  else
+      c.push(e.name)    
+})
+
+var r=[]
+
+r.birds=b
+r.animals=a
+r.reptile=c
+
+console.log(r)

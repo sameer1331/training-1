@@ -1,5 +1,7 @@
 //function to map each object capitalized :
+
 var a=[{name:'sameer'},{name:'suriya'},{name:'bharathi'},{name:'mohan'}]
+
 n= a.map((e)=> {
     emp={}
     x="";
