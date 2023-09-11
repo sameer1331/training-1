@@ -1,4 +1,5 @@
 //Write a function that takes an array of objects with a price property and returns a new array with only the objects that have a price less than a given amount. Use the filter method to accomplish this. 
+
 const fruits = [
     { name:"apple", price:200 },
     { name:"orange", price:120 },
