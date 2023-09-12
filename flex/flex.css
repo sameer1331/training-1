@@ -1,47 +1,35 @@
-.box{
-    display :flex;
+body{
+    background-color: rgb(96, 134, 134);
 }
-h1{
-    text-align: center;
-    
+hr{
+    border: 5px solid white;
 }
-
-
-.container{
+.boxes{
+    margin:10px;
+    background-color: red;
+    border:5px solid black;
+    height: 100px;
+    width: 100px;
+}
+.flex-direction{
     background-color: blue;
-    justify-content:flex-start;
-    height: 120px;
-}
-.card{
-    background-color: rgb(218, 20, 20);
-    width: 80px;
-    height: 80px;
-    margin: 10px; 
-    padding: 10px;
+    border:10px solid white;
+    margin:20px;
 }
 
-.container1{
-    background-color: blue;
-    justify-content:flex-end;
-    height: 120px;
+.row{
+    display:flex;
+    flex-direction:row;
 }
-.container2{
-    background-color: blue;
-    justify-content:center;
-    height: 120px;
-}   
-.container3{
-    background-color: blue;
-    justify-content:space-between;
-    height: 120px;
-}   
-.container4{
-    background-color: blue;
-    justify-content:space-around;
-    height: 120px;
-}   
-.container5{
-    background-color: blue;
-    justify-content:space-evenly;
-    height: 120px;
-}   
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.column{
+    display:flex;
+    flex-direction:column ;
+}
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
