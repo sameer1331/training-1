@@ -33,3 +33,55 @@ hr{
     display: flex;
     flex-direction: column-reverse;
 }
+
+.boxes1{
+    margin:10px;
+    background-color: red;
+    border:5px solid black;
+    height: 100px;
+    width: 100px;
+}
+.boxes2{
+    margin:10px;
+    background-color: red;
+    border:5px solid black;
+    height: 150px;
+    width: 100px;
+}
+.boxes3{
+    margin:10px;
+    background-color: red;
+    border:5px solid black;
+    height: 180px;
+    width: 100px;
+}
+.boxes4{
+    margin:10px;
+    background-color: red;
+    border:5px solid black;
+    height: 200px;
+    width: 100px;
+}
+
+.align-Items{
+    background-color: blue;
+    border:10px solid white;
+    margin:20px;
+}   
+
+.Align-start{
+    display:flex;
+    align-items: flex-start;
+}
+.Align-end{
+    display:flex;
+    align-items: flex-end;
+}
+.Align-center{
+    display: flex;
+    align-items: center;
+}
+.Align-baseline{
+    display:flex;
+    align-items: baseline;
+}
